@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    font-family: "Raleway", serif;
+}
+.main{
+    width: 100%;
+    background-image:url(./si.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+.img1{
+    width: 300px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: auto;
+    height: 50px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+}
+ul li a{
+    font-weight: bold;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: crimson;
+}
+.logo{
+    width: 400px;
+    margin: 20px;
+}
+.info{
+    margin-left: 8%;
+    margin-top: 30%;
+}
+.info span{
+    color: blue;
+    font-size: 30px;
+    font-weight: bolder;
+}
+pre{
+    margin: 5px;
+    text-decoration: underline;
+}
+.image img{
+   position: absolute;
+   width: 20px;
+  
+   
+   
+}
+.infomain{
+    display: flex;
+}
+.box{
+    display: flex;
+    background-color: aliceblue;
+    margin-left: 7%;
+    
+    justify-content: center;
+}
+.box img{
+    
+    width: 300%;
+    margin: 5px;
+}
+.box img:hover{
+    scale: 1.05;
+}
+.h3{
+    text-align: center;
+    background-color: aquamarine;
+    color: blue;
+}
+.row{
+   display: flex;
+   margin-top: 5px;
+
+}
+.col{
+    width: 300px;
+    height: 300px;
+    border: 2px ridge darkblue;
+    margin: 20px;
+    margin-left: 50px;
+    background: linear-gradient(rgba(32, 32, 227, 0.875)50%rgba(175, 175, 36, 0.777)50%);
+    background-size: 100% 200%;
+    transition: all 1.2s;
+}
+.col:hover{
+    background-position:butt;
+}
+.col img{
+    width: 200px;
+    margin-left: 100px;
+}
+.col h5{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    color: aquamarine;
+}
+.col p{
+    text-align: justify;
+    padding: 10px;
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+.input{
+    width: 100%;
+    margin: 10px;
+}
+button{
+    background-color: black;
+    color: cornsilk;
+    padding: 5px;
+}
+
+
